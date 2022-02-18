@@ -1,0 +1,89 @@
+.top-container {
+  position: relative;
+}
+
+.text-block {
+  position: absolute;
+  top: 130px;
+  left: 200px;
+  color: hotpink;
+}
+
+.text-block2 {
+  right: 20px;
+  top: 14px;
+  color: blue;
+  position: absolute;
+}
+
+.f:hover {
+  border-radius: 50%
+}
+
+.i:hover {
+  border-radius: 50%
+}
+
+body {
+  background-color: pink;
+  margin: 0;
+  padding: 0;
+}
+
+.middle-container {
+  position: absolute;
+  top: 312px;
+  padding-left: 325px;
+}
+
+h2 {
+  font-weight: bolder;
+  display: inline-block;
+  border: 1rem solid;
+  width: 80px;
+  margin: 2rem;
+  padding: 1rem;
+  color: black;
+}
+
+h2:hover {
+  transform: scale(1.5);
+  color: hotpink;
+}
+
+.classic {
+  border: 20px solid;
+  color: black;
+}
+
+.crime {
+  border: 20px solid;
+  color: black;
+}
+
+.horror {
+  border: 20px solid;
+  color: black;
+}
+
+.center {
+  padding: 60px 35px 35px 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.classic:hover {
+  border-style: dotted;
+  color: hotpink;
+}
+
+.horror:hover {
+  border-radius: 10%;
+  color: hotpink;
+}
+
+.crime:hover {
+  border-style: dashed double;
+  color: hotpink;
+}
